@@ -13,4 +13,4 @@ def line (katz_deli)
   else
     puts "The line is currently:"
     
-    katz_deli.each_
+    katz_deli.each_with_index do |value, index
