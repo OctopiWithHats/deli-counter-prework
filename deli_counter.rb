@@ -19,3 +19,5 @@ def line (katz_deli)
   end
   puts message
 end
+
+def now_serving 
