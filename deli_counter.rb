@@ -14,4 +14,4 @@ def line (katz_deli)
     message = "The line is currently:"
     
     katz_deli.each_with_index do |value, index|
-      message += 
+      message += " #{index.to_i"
