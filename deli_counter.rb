@@ -22,4 +22,6 @@ end
 
 def now_serving (katz_deli)
   if katz_deli.empty? == true
+    puts "There is no one waiting to be served!"
+  else
     
