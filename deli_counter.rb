@@ -20,6 +20,8 @@ def line (katz_deli)
   puts message
 end
 
+line(katz_deli)
+
 def now_serving (katz_deli)
   if katz_deli.empty? == true
     puts "There is no one waiting to be served!"
@@ -28,4 +30,4 @@ def now_serving (katz_deli)
   end
 end
 
-now_serving
+now_serving(katz_deli)
