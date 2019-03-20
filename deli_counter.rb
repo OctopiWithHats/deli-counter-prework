@@ -20,4 +20,6 @@ def line (katz_deli)
   puts message
 end
 
-def now_serving 
+def now_serving (katz_deli)
+  if katz_deli.empty? == true
+    
