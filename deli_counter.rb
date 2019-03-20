@@ -29,5 +29,3 @@ def now_serving (katz_deli)
 end
 
 now_serving
-
-end
